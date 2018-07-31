@@ -1,3 +1,5 @@
+
+//Will show search result on the page
 function showSearchResult(){
-    console.log(STATE.searchResult);
+    $(".show_results").text(STATE.searchResult);
 }

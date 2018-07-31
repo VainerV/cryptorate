@@ -1,3 +1,5 @@
+// Storage 
+
 const STATE = {
       searchResult: [],
       currency: "",
