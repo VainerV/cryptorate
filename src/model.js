@@ -6,6 +6,6 @@ const STATE = {
       dayOpen: "",
       dayVolume: "",
       availableSupply: "",
-
+      lookingFor: "",
 }
 

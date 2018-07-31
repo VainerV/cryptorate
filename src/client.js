@@ -8,15 +8,18 @@ function getDataAPI(search) {
        
     
         success: function(search_data) {
-          console.log(search_data);
+          //console.log(search_data);
           
           STATE.searchResult = search_data;
+         // console.log(STATE.searchResult);
           //show API_DATA();
-         // showSearchResult();
+          findTheCurency();
+        
         },
         error: function(error) {
           console.log(error);
         }
       });
+
     }
     
